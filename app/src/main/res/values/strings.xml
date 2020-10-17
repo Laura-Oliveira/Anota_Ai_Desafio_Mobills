@@ -13,4 +13,7 @@
     <string name="txt_hint_register_price_expense"> Valor da Despesa </string>
     <string name="txt_hint_register_date_expense"> Data da Despesa </string>
     <string name="btn_txt_register_expense"> Cadastrar Despesa </string>
+    <string name="txt_title_radio_button"> Status Despesa </string>
+    <string name="radio_btn_register_expense_status_paid"> Pago </string>
+    <string name="radio_btn_register_expense_status_debt"> A pagar </string>
 </resources>

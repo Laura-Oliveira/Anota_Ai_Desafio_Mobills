@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/screen_register_shop"
+    tools:context="com.anota_ai.Control.RegisterExpenseActivity"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.anota_ai.Control.LoginActivity"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/txt_logo_login"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_app_icon"
+            >
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="75dp"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            >
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <!-- =============== PHOTO SHOP ===============
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_shop"
+            android:layout_width="match_parent"
+            android:layout_height="182dp">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_upload_image_shop"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="200dp"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/btn_color"
+            android:text="@string/btn_register_add_image_shop"
+            android:textColor="@color/btn_text_color"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="10sp"
+            >
+        </com.google.android.material.button.MaterialButton>  -->
+
+        <!-- =============== DESCRIPTION EXPENSE =============== -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_register_description_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:hint="@string/txt_hint_description_expense"
+            android:layout_marginTop="20dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_register_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                app:endIconMode="clear_text"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- =============== PRICE EXPENSE =============== -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_register_price_expense_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:hint="@string/txt_hint_register_price_expense"
+            android:inputType="textCapWords"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_register_info_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- =============== DATA EXPENSE =============== -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_register_expense_date_hint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:hint="@string/txt_hint_register_date_expense"
+            android:inputType="textCapWords"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_register_reference_point_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="date"
+                android:textColorHint="@color/txt_color_hint_date"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- ========= REGISTER EXPENSE RADIO BUTTON STATUS EXPENSE ========= -->
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_title_radio_button"
+            android:textSize="10pt"
+            android:layout_marginLeft="10dp"
+            >
+        </com.google.android.material.textview.MaterialTextView>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radio_btn_register_expense_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_btn_register_expense_status_paid"
+                    android:textSize="10pt"
+                    android:layout_marginLeft="35sp"
+                    android:layout_marginRight="15sp"
+                    />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/radio_btn_register_worker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_btn_register_expense_status_debt"
+                    android:textSize="10pt"
+                    android:layout_marginRight="20sp"
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </RadioGroup>
+
+        <!-- =============== REGISTER BUTTON EXPENSE =============== -->
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_register_shop"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:backgroundTint="@color/btn_register_expense"
+                android:textColor="@color/btn_txt_register_expense_color"
+                android:textStyle="bold"
+                android:text="@string/btn_txt_register_expense"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                >
+            </com.google.android.material.button.MaterialButton>
+
+        </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
