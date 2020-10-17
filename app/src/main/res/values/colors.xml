@@ -4,5 +4,16 @@
     <color name="colorPrimaryDark">#078aff</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="background_black">#263238</color>
-    <color name="backgroundColor"> #BA68C8 </color>
+    <color name="backgroundColor"> #E0E0E0 </color>
+
+    <!-- ================= STRINGS LOGIN  =================  -->
+    <color name="btn_login_color"> #078aff</color>
+    <color name="btn_txt_login_color"> #F5F5F5 </color>
+    <color name="btn_register_color">#078aff </color>
+    <color name="btn_txt_register_color"> #F5F5F5</color>
+
+    <!-- ================= STRINGS REGISTER EXPENSE  =================  -->
+    <color name="txt_color_hint_date">#078aff </color>
+    <color name="btn_register_expense">  #078aff </color>
+    <color name="btn_txt_register_expense_color"> #F5F5F5</color>
 </resources>

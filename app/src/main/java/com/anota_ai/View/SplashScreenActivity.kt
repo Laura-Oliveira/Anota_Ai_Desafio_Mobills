@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.anota_ai.R
+import com.anota_ai.Control.LoginActivity
 
 
 class SplashScreenActivity : AppCompatActivity()
@@ -20,7 +21,7 @@ class SplashScreenActivity : AppCompatActivity()
         Handler().postDelayed(Runnable
         /* THis method will run right after the execution of the splash finish */
         { /* The Main Activity will be started */
-            val intent = Intent(this@SplashScreenActivity, HomeActivity::class.java)
+            val intent = Intent(this@SplashScreenActivity, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }, SPLASH_TIME_OUT.toLong()

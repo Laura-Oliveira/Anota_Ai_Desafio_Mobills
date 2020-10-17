@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Anota Aí</string>
+
+    <!-- ================= STRINGS LOGIN  =================  -->
+    <string name="txt_logo_login"> Entrar no sistema </string>
+    <string name="txt_login_hint_username"> grace.hoorper@gmail.com </string>
+    <string name="txt_login_hint_password"> Senha </string>
+    <string name="btn_txt_login"> Entrar </string>
+    <string name="btn_txt_register_user"> Cadastrar </string>
+
+    <!-- ================= STRINGS REGISTER EXPENSE  =================  -->
+    <string name="txt_hint_description_expense"> Descrição da Despesa </string>
+    <string name="txt_hint_register_price_expense"> Valor da Despesa </string>
+    <string name="txt_hint_register_date_expense"> Data da Despesa </string>
+    <string name="btn_txt_register_expense"> Cadastrar Despesa </string>
 </resources>
