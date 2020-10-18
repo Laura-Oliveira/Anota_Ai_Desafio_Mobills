@@ -93,7 +93,7 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/input_register_info_shop"
+                android:id="@+id/input_register_price_expense"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
@@ -101,7 +101,7 @@
             </com.google.android.material.textfield.TextInputEditText>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- =============== DATA EXPENSE =============== -->
+        <!-- =============== DATE EXPENSE =============== -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_register_expense_date_hint"
             android:layout_width="match_parent"
@@ -112,7 +112,7 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/input_register_reference_point_shop"
+                android:id="@+id/input_register_expense_date"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="date"
@@ -142,7 +142,7 @@
                 android:orientation="horizontal">
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
-                    android:id="@+id/radio_btn_register_expense_status"
+                    android:id="@+id/radio_btn_register_expense_status_paid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/radio_btn_register_expense_status_paid"
@@ -152,7 +152,7 @@
                     />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
-                    android:id="@+id/radio_btn_register_worker"
+                    android:id="@+id/radio_btn_register_expense_status_open"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/radio_btn_register_expense_status_debt"
