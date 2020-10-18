@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1155853237",
+    "firebase_url": "https://anotaai-6e1b7.firebaseio.com",
+    "project_id": "anotaai-6e1b7",
+    "storage_bucket": "anotaai-6e1b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1155853237:android:2cac4792a716a8141747fc",
+        "android_client_info": {
+          "package_name": "com.anota_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1155853237-4jv67646sd3dhi1pg42mrps0rdj79r11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anota_ai",
+            "certificate_hash": "2372ca770850a8125a019bf399ed074e3380fa0a"
+          }
+        },
+        {
+          "client_id": "1155853237-j5or5t66gtqvs4ch8ohheg3pd4rgsmsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBppkGi4uxYnlRBDuK7l_ErgxhxkR29k_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1155853237-j5or5t66gtqvs4ch8ohheg3pd4rgsmsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
