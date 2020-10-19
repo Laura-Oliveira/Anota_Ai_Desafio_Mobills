@@ -1,4 +1,4 @@
-# Anota_Ai_Desafio_Mobills
+# Anota Ai Desafio Mobills
 ## Finance Management App
 
 ### Technologies:
@@ -7,3 +7,4 @@
 - Firebase Firestone
 - Material Design
 - Android Studio
+- MVC Architecture
